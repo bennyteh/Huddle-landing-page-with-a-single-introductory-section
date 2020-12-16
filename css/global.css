@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(../images/bg-desktop.svg);
+  background-image: url(../images/bg-mobile.svg);
   background-color: #674baf;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -17,13 +17,95 @@ body {
 
 /* content */
 .logo {
-  margin: 40px 0 0 80px;
+  margin: 25px 25px;
+}
+
+.logo img {
+  width: 30%;
 }
 
 .content {
-  margin: 80px 50px 10px 80px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.content .picture img {
+  width: 80%;
+}
+
+.content .description {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  width: 80%;
+}
+
+.content .description h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+.content .description p {
+  font-size: 15px;
+  opacity: 0.95;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.content .description .btn {
+  text-decoration: none;
+  padding: 15px 80px;
+  border-radius: 45px;
+  border: none;
+  -webkit-box-shadow: 0 1px 5px black;
+          box-shadow: 0 1px 5px black;
+  background-color: white;
+  color: #674baf;
+  outline: none;
+}
+
+.content .description .btn:hover {
+  background-color: #e882e8;
+  color: white;
+}
+
+.content .description .spacing {
+  margin-bottom: 30px;
+}
+
+/* contact */
+.contact {
+  margin-top: 30px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.contact .contact-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+.contact .contact-list li i {
+  color: white;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 60px;
+  border: 1px solid white;
+  padding: 10px 10px;
 }
 /*# sourceMappingURL=global.css.map */
