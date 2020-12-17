@@ -108,4 +108,59 @@ body {
   border: 1px solid white;
   padding: 10px 10px;
 }
+
+.contact .contact-list li i:hover {
+  color: #e882e8;
+  border: 1px solid #e882e8;
+}
+
+/* media queries */
+@media screen and (min-width: 1150px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+  }
+  .logo {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo img {
+    width: 20%;
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .content .picture img {
+    width: auto;
+  }
+  .content .description {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+  }
+  .content .description .spacing {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .content .description h3 {
+    font-size: 36px;
+  }
+  .content .description .btn:hover {
+    cursor: pointer;
+  }
+  .contact {
+    margin-top: 5%;
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+  .contact .contact-list li i {
+    margin: 10px;
+    border: 2px solid white;
+    padding: 25px 25px;
+  }
+}
 /*# sourceMappingURL=global.css.map */

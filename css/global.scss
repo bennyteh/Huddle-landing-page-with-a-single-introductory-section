@@ -90,6 +90,66 @@ body{
                 border: 1px solid white;
                 padding: 10px 10px;
             }
+            i:hover {
+                color: $color-softMagenta;
+                border: 1px solid $color-softMagenta;
+            }
+        }
+    }
+}
+
+/* media queries */
+@media screen and (min-width: 1150px)
+ {
+    body{
+        background-image: url(../images/bg-desktop.svg);
+    }
+    .logo {
+        padding-left: 10%;
+        padding-right: 10%;
+        img {
+            width: 20%;
+        }
+    }
+    .content{
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        .picture {
+            img{
+                width: auto;
+            }
+        }
+        .description {
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: left;
+            .spacing {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            h3 {
+                font-size: 36px;
+            }
+            .btn:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .contact {
+        margin-top: 5%;
+        margin-right: 0;
+        margin-bottom: 5%;
+        .contact-list{
+            li {
+                i{
+                    margin: 10px;
+                    border: 2px solid white;
+                    padding: 25px 25px;
+                }
+        
+            }   
         }
     }
 }
