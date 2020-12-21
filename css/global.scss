@@ -59,6 +59,7 @@ body{
             background-color: white;
             color: $color-violet;
             outline: none;
+            cursor: pointer;
         }
         .btn:hover{
             background-color: $color-softMagenta;
@@ -131,9 +132,6 @@ body{
             }
             h3 {
                 font-size: 36px;
-            }
-            .btn:hover{
-                cursor: pointer;
             }
         }
     }

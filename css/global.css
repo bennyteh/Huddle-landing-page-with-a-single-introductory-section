@@ -69,6 +69,7 @@ body {
   background-color: white;
   color: #674baf;
   outline: none;
+  cursor: pointer;
 }
 
 .content .description .btn:hover {
@@ -148,9 +149,6 @@ body {
   }
   .content .description h3 {
     font-size: 36px;
-  }
-  .content .description .btn:hover {
-    cursor: pointer;
   }
   .contact {
     margin-top: 5%;
